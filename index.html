@@ -11,8 +11,8 @@
 
   <div class="outer-container">
       <div class="inner-container">
-          <img id="video-overlay" src="dog.png" origin="Anonymous"></img>
-          <video origin="Anonymous" crossorigin="anonymous"></video>
+          <img id="video-overlay" src="dog.png"></img>
+          <video></video>
       </div>
   </div>
 </body>
@@ -50,7 +50,6 @@
 
     function loadImage(src) {
       var img = new Image();
-      img1.setAttribute('crossorigin', 'anonymous');
       img.src = src;
       return img;
     }
