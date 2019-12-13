@@ -11,8 +11,7 @@
 }
 #video-overlay {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 30%;
   margin: 10px;
   padding: 5px 5px;
   font-size: 20px;
